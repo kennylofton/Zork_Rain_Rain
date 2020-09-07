@@ -1,0 +1,110 @@
+Given I am at home 
+And I get a knock at the door
+Given I answer the door
+And there's a strange man at the door
+And he gives me the option of blue pill or red pill
+When I chose the blue pill then I wake up in bed
+
+Given I wake up in bed
+When I get a knock at the door
+Then I should have the option of aswering it or not
+
+Given I answer the door
+And there's a strange man at the door
+And he gives me the option of blue pill or red pill
+When I chose the red pill then I wake up in North of zion
+
+///////////////////////////////////////////
+
+[South]
+Given I wake up at the north of zion
+And I'm being sucked into a tornado
+And the strange mans hologram appears
+And gives me the option to teleport to the following locations: South, West, East, or Stay
+When I chose the option of South
+Then I should end up on planet vegeta
+
+[West]
+Given I wake up at the north of zion
+And I'm being sucked into a tornado
+And the strange mans hologram appears
+And gives me the option to teleport to the following locations: South, West, East, or Stay
+When I chose the option of West
+Then I should end up in the hyperbolic time chamber
+
+[East]
+Given I wake up at the north of zion
+And I'm being sucked into a tornado
+And the strange mans hologram appears
+And gives me the option to teleport to the following locations: South, West, East, or Stay
+When I chose the option of West
+Then I should end up in the matrix
+
+[Stay]
+Given I wake up at the north of zion
+And I'm being sucked into a tornado
+And the strange mans hologram appears
+And gives me the option to teleport to the following locations: South, West, East, or Stay
+When I chose the option of Stay
+Then I should end up with a senzu bean in my hand
+
+///////////////////
+
+[South]
+Given I chose the option of south 
+And I'm on planet vegeta
+When I'm face to face with frieza
+Then I should be given the option to select a weapon
+
+[West]
+Given I chose the option of West 
+And I'm in the hyperbolic time chamber
+When I'm face to face with Goku
+Then I should be given the option to select a weapon
+
+[East]
+Given I chose the option of East 
+And I'm in the matrix
+When I'm face to face with Goku
+Then I should be given the option to select a weapon
+
+[Stay]
+Given I chose the option of East 
+And I'm in the north of zion with a senzu bean
+When I'm face to face with the machines
+Then I should be given the option to select a weapons
+
+Given the user selects any option of locations
+And they're face to face with their respective Boss
+When the user selects his/her weapon of choice
+Then it starts to rain..... tbc
+
+
+///////////
+
+Characters: 
+    MainCharacter = User input 
+    Strangeman = Morpheus
+Boss: 
+    frieza = lord Frieza, 
+    Goku = Son Goku, 
+    Agentsmith = Agent Smiths, 
+    Machine = Machines
+Weapon: 
+    Glock = Desert eagle, 
+    619 = Rey mysterios mask, 
+    SayinTail = Tail,
+    TrunksSword = Swoord,
+    SenzuBean = Senzu bean,
+
+var bluePill = "Blue pill"
+var strangeMan = "Morpheous";
+var frieza = "Lord frieza";
+var goku = "Son Goku";
+var agentSmith = "Agent Smith";
+var machines = "Machines";
+var glock = "Desert Eagle";
+var sixOneNine = "Rey Mysterio's mask";
+var Tail = "Sayins tail";
+var sword = "Trunk's sword";
+var senzuBean = "Senzu Bean";
